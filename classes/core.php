@@ -382,7 +382,7 @@ if ( ! class_exists( 'Basic_Google_Maps_Placemarks' ) ) {
 
 			wp_register_script(
 				'google-maps',
-				'http' . ( is_ssl() ? 's' : '' ) . '://maps.google.com/maps/api/js?sensor=false' . $google_maps_language,
+				'http' . ( is_ssl() ? 's' : '' ) . '://ditu.google.cn/maps/api/js?sensor=false' . $google_maps_language,
 				array(),
 				false,
 				true
@@ -879,7 +879,7 @@ if ( ! class_exists( 'Basic_Google_Maps_Placemarks' ) ) {
 					$variables = array(
 						'p'                => $p,
 						'view_on_map'      => $view_on_map,
-						'google_maps_url'  => add_query_arg( 'q', rawurlencode( $address ), 'https://www.google.com/maps' ),
+						'google_maps_url'  => add_query_arg( 'q', rawurlencode( $address ), 'https://ditu.google.cn/maps' ),
 						'address'          => $address,
 						'category_classes' => implode( ' ', $categories ),
 					);
