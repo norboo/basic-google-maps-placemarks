@@ -3,7 +3,7 @@
 if ( ! class_exists( 'Basic_Google_Maps_Placemarks' ) ) {
 	class Basic_Google_Maps_Placemarks extends BGMP_Module {
 		protected $settings, $options, $updated_options, $map_shortcode_called, $map_shortcode_categories;
-		const VERSION    = '2.0-alpha';
+		const VERSION    = '2.0.1-alpha';
 		const POST_TYPE  = 'bgmp';
 		const TAXONOMY   = 'bgmp-category';
 		const ZOOM_MIN   = 0;
